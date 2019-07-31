@@ -1,56 +1,56 @@
-package com.atguigu.mr;
+package com.atguigu.mr.inputFormatPractice.smallfile;
 
+import com.atguigu.mr.diywordcount.WcMapper;
+import com.atguigu.mr.diywordcount.WcReducer;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
+import org.apache.hadoop.mapreduce.lib.input.CombineTextInputFormat;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
-import java.io.IOException;
-
-
 /**
  * @author Rex
- * @title: WcDriver
+ * @title: SmallFileDriver
  * @projectName HDFSclient
- * @description: TODO
- * @date 2019/7/2521:16
+ * @description: 小文件分片设置
+ * @date 2019/7/2910:35
  */
-public class WcDriver{
+public class SmallFileDriver {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception{
 
-        // 1 获取配置信息以及封装任务
         Configuration configuration = new Configuration();
         Job job = Job.getInstance(configuration);
 
-        // 2 设置jar加载路径
-        job.setJarByClass(WcDriver.class);
-
-        // 3 设置map和reduce类
+        /**
+         * 设置主要步骤具体逻辑执行类
+         */
+        job.setJarByClass(SmallFileDriver.class);
         job.setMapperClass(WcMapper.class);
         job.setReducerClass(WcReducer.class);
 
-        // 4 设置map输出
+        /**
+         * 设置map阶段、mapreduce最终输出的key\value类型
+         */
         job.setMapOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
 
-        // 5 设置最终输出kv类型
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(IntWritable.class);
 
-        // 6 设置输入和输出路径
+        job.setInputFormatClass(CombineTextInputFormat.class);
+        CombineTextInputFormat.setMaxInputSplitSize(job, 1024 * 1024 * 4);
+
+        /**
+         * 设置输入、输出文件路径
+         */
         FileInputFormat.setInputPaths(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
 
-        // 7 提交
-        boolean result = job.waitForCompletion(true);
-
-        System.exit(result ? 0 : 1);
-
+        job.waitForCompletion(true);
     }
-
 
 }

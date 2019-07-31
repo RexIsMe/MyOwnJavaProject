@@ -1,4 +1,4 @@
-package com.atguigu.mr;
+package com.atguigu.mr.diywordcount;
 
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
