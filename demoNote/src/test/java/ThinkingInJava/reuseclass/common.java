@@ -1,38 +1,25 @@
 package ThinkingInJava.reuseclass;
 
 /**
- * @author Rex
- * @title: common
- * @projectName demoNote
- * @description: TODO
- * @date 2019/6/512:46
+ * <p>Title: Common</p>
+ * <p>Description: </p>
+ * <p>Company: Intellifusion</p>
+ *
+ * @author Administrator
+ * @version V1.0
+ * @date 2019/6/24 17:18
  */
-public class common {
 
-    public static void main(String[] args) {
-        C c = new C();
+public class Common implements Interface1, Interface2{
+
+
+    @Override
+    public void call() {
+
     }
 
-}
+    @Override
+    public void call2() {
 
-
-
-class A{
-
-    public A() {
-        System.out.println("A constractor");
     }
-}
-
-class B{
-
-    public B() {
-        System.out.println("B constractor");
-    }
-}
-
-
-class C extends A{
-
-    private B b;
 }
