@@ -5,130 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a12f48b-975e-4398-a292-f41d83842c56" name="Default Changelist" comment="daily">
-      <change afterPath="$PROJECT_DIR$/../HIVE/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/HIVE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/ETLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/VideoETLMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/VideoETLRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etlpractice/MyDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etlpractice/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/flume/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogETLInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogTypeInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/hive/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/hive/src/main/java/com/atguigu/udf/BaseFieldUDF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/hive/src/main/java/com/atguigu/udtf/EventJsonUDTF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/appclient/AppMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppActive_background.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppActive_foreground.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppAd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppErrorLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppFavorites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppLoading.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppNewsDetail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppPraise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoNote/src/test/java/leetcode/_03goodidea/_03_goodidea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../demoNote/src/test/java/understandingthejvm/section6/section6_3_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MySink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MySource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/src/main/resources/Log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hbase/hbase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hbase/src/main/java/com/atguigu/hbase/HbaseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hbase/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/Snipaste_2019-09-20_11-15-49.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/collection/TestMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/interfacess/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/TestAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/TestClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/TestClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/TestInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/TestMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/TestMethod2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/TestProtected.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/teach/TestString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/unkonw/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/unkonw/TestClassLoad1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/unkonw/TestClassLoad2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/test.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter1/H.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter5/TestAdvanceMethod.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter5/TestAnonymityMethod.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter5/TestDecalreMethod.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter5/TestLesser.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter5/TestMethodAndWay.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter6/TestImport.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter6/TestTrait.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter7/Practice.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter7/SimpleWordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter7/TestAdvanceMethod.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter7/TestBasicMethod.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter7/TestNormalOperator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter8/TestImplicit.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/test/Common.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/test/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/test/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/test/WhereToUse_.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/input/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/input/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/input/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/input/4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/input/5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/input/6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/input/7.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/java/com/atguigu/stream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/spark/AdvanceVar/RDD_Accumu1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/spark/AdvanceVar/RDD_Accumu2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/spark/Common.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/spark/NewRDD.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/spark/Practice1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/spark/ReadDataFrom/FromMysql.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/spark/Serializable.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/spark/WordCount.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/WordCountAll.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/_1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/_2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/_3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/_4.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/_5.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/_6.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/_7.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/wordcount/_8.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/impl/LockImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoNote/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../demoNote/src/test/java/leetcode/_031/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoNote/src/test/java/leetcode/_031/LongestSubString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka/src/main/java/com/atguigu/interceptor/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/src/main/java/com/atguigu/interceptor/Common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter2/TestString.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter2/TestString.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/linkedlist/CircleLinkedListTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/linkedlist/SingleLinkedListTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/recursion/HanoiTower.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/recursion/MiGong.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/recursion/RecursionTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/search/BinarySearchTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/sort/BubbleSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/sort/InsertSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/sort/MergeSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/sort/QuickSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/sort/SelectSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -163,26 +51,26 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/Common.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="152">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/test.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/sort/MergeSort.scala">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/search/BinarySearchTest.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -316,6 +204,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/chapter7/TestAdvanceMethod.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/Common.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/sort/MergeSort.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/search/BinarySearchTest.scala" />
       </list>
     </option>
   </component>
@@ -339,26 +229,11 @@
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="scala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="scala" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/dataSources.xml" />
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-        <option value="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
-        <option value="$PROJECT_DIR$/../spark/spark.iml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
@@ -395,7 +270,24 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure0513" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scala" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructure0513" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,9 +298,10 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -419,6 +312,7 @@
       <recent name="com.atguigu.unkonw" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workSpace\myOwn\scala\src\main\scala" />
       <recent name="D:\workSpace\myOwn\scala\src\main\java\com\atguigu\teach" />
       <recent name="D:\workSpace\myOwn\scala\src\main\java\com\atguigu" />
     </key>
@@ -435,7 +329,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Common (2)">
+  <component name="RunManager" selected="Application.BinarySearchTest">
+    <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala0513.com.atguigu.datastructure0513.search.BinarySearchTest" />
+      <module name="scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala0513.com.atguigu.datastructure0513.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Common (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.test.Common" />
       <module name="scala" />
@@ -475,19 +382,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleWordCount" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter7.SimpleWordCount" />
-      <module name="scala" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu.chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestImplicit" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.chapter8.TestImplicit" />
       <module name="scala" />
@@ -503,11 +397,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearchTest" />
         <item itemvalue="Application.Common (2)" />
         <item itemvalue="Application.Common (1)" />
         <item itemvalue="Application.TestImplicit" />
         <item itemvalue="Application.Common" />
-        <item itemvalue="Application.SimpleWordCount" />
       </list>
     </recent_temporary>
   </component>
@@ -538,6 +432,7 @@
       <workItem from="1569631174310" duration="79000" />
       <workItem from="1569631259651" duration="698000" />
       <workItem from="1570495222142" duration="641000" />
+      <workItem from="1571359233131" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="daily">
       <created>1568710665276</created>
@@ -550,7 +445,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72906000" />
+    <option name="totallyTimeSpent" value="73189000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -562,10 +457,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17091152" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -590,7 +485,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.2660858" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.23927614" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" weight="0.32935917" />
@@ -660,20 +555,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/software/worksoftWare/scala/scala-2.12.4/src/library/scala/Array.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9728">
-          <caret line="522" column="12" selection-start-line="522" selection-start-column="12" selection-end-line="522" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/chapter5/TestAnonymityMethod.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/chapter6.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/test/Test1.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -952,6 +833,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/test/Common.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="722">
@@ -1001,13 +885,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="152">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/sort/MergeSort.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/scala0513/com/atguigu/datastructure0513/search/BinarySearchTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="25" />
         </state>
       </provider>
     </entry>
