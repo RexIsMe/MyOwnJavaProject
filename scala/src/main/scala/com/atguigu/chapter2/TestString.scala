@@ -26,9 +26,10 @@ object TestString {
 
 
     var module =
-      """
+      s"""
         |The magic word are
         |To know , is to konw nothing, that is meaning of true knowledge
+        |$name $age
       """.stripMargin
     println(module)
 

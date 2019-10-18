@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f929f73-fcf0-46e2-9f65-d40e15d786e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../HIVE/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HIVE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HIVE/HIVE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HIVE/src/main/java/com/atguigu/hive/etl/ETLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HIVE/src/main/java/com/atguigu/hive/etl/VideoETLMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HIVE/src/main/java/com/atguigu/hive/etl/VideoETLRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HIVE/src/main/java/com/atguigu/hive/etlpractice/MyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../HIVE/src/main/java/com/atguigu/hive/etlpractice/MyMapper.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../demoNote/src/main/java/com/example/demo/exception/ThreeTimesException.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../demoNote/src/test/java/ThinkingInJava/dealerrorbyexception/finallyalwayswork.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../demoNote/src/test/java/com/example/demo/IdeaQuickKey.java" afterDir="false" />
@@ -12,62 +20,11 @@
       <change afterPath="$PROJECT_DIR$/../../demoNote/src/test/java/leetcode/_021/TwoAdd.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../demoNote/src/test/java/leetcode/_03/LongestSubString.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../demoNote/src/test/java/leetcode/_031/LongestSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/entity/ProgramDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/FlowBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeFileInputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeRecordReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/smallfile/SmallFileDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/outputformat/FilterOutputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/outputformat/FilterRecordWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/outputformat/OutputFormatDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/partition/DiyPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/partition/PartitionDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/useallmodule/MyInputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/MainDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/MyOutputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/MyRecordWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/job1/MyDriver1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/job1/MyMapper1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/job1/MyReducer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/job2/MyDriver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/job2/MyMapper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/job2/MyReducer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_02topn/FlowBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_02topn/MyGroupingComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_02topn/StatisticDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_02topn/StatisticMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_02topn/StatisticReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_02topn/TopNReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MainDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MyOutputFormat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MyRecordWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/instruction.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyDriver1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyMapper1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyrReducer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/KeyBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyDriver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyMapper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyReducer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/utils/LogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/utils/MainProgramDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../zookeeper/zookeeper.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demoNote/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../demoNote/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demoNote/src/test/java/ThinkingInJava/reuseclass/common.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demoNote/src/test/java/ThinkingInJava/reuseclass/common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../demoNote/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../demoNote/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/WcDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/diywordcount/WcDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/WcMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/diywordcount/WcMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/WcReducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/mr/diywordcount/WcReducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../zookeeper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../zookeeper/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,10 +43,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyDriver1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MainDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="437">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,101 +55,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyMapper1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="475">
+              <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyrReducer1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeRecordReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="494">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MyOutputFormat.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/partition/DiyPartitioner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://D:/atguigu/大数据上课资料/Felix_01_尚硅谷大数据技术之Hadoop/2.资料/02_linux环境编译源码/hadoop-2.7.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/RecordWriter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="37" column="34" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="228">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MyRecordWriter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="171">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MainDriver.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="513">
+              <caret line="45" column="21" selection-start-line="11" selection-start-column="8" selection-end-line="45" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyDriver2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="304">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyReducer2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeFileInputFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1587#1603#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyMapper2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="209">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -217,6 +155,7 @@
       <find>this.start</find>
       <find>MapTaskRunnable</find>
       <find>programdriver</find>
+      <find>squ</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -357,53 +296,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HDFSclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HDFSClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HDFSclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HDFSClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="_03bothfriend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HDFSclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HDFSClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="_03bothfriend" type="462c0819:PsiDirectoryNode" />
-              <item name="job1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HDFSclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HDFSClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="_03bothfriend" type="462c0819:PsiDirectoryNode" />
-              <item name="job2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HDFSclient" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HDFSClient" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -616,6 +508,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MyDriver2" />
       <item itemvalue="Application.StatisticDriver" />
       <item itemvalue="Application.SmallFileDriver" />
       <item itemvalue="Application.WholeDriver" />
@@ -657,7 +550,12 @@
       <workItem from="1564445984033" duration="1398000" />
       <workItem from="1564524148950" duration="7299000" />
       <workItem from="1564533463723" duration="351000" />
-      <workItem from="1564534115958" duration="22765000" />
+      <workItem from="1564534115958" duration="23411000" />
+      <workItem from="1564616192817" duration="634000" />
+      <workItem from="1564964636521" duration="954000" />
+      <workItem from="1565057697057" duration="1499000" />
+      <workItem from="1565156898607" duration="621000" />
+      <workItem from="1565164320149" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="daily">
       <created>1563779629569</created>
@@ -687,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564062812617</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="daily">
+      <created>1564563708885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564563708885</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -720,7 +625,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108730000" />
+    <option name="totallyTimeSpent" value="113102000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -740,12 +645,12 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4952199" visible="true" weight="0.2533512" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4952199" visible="true" weight="0.24463807" />
       <window_info id="Structure" order="6" sideWeight="0.49904397" weight="0.22453083" />
       <window_info id="JRebel" order="7" sideWeight="0.5047801" side_tool="true" weight="0.22386059" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49932975" weight="0.3783784" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49865952" visible="true" weight="0.24624625" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.24624625" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2087087" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1067,66 +972,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/atguigu/大数据上课资料/Felix_01_尚硅谷大数据技术之Hadoop/2.资料/02_linux环境编译源码/hadoop-2.7.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/lib/input/FileInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="126" column="27" lean-forward="true" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
-          <folding>
-            <element signature="e#5182#5183#0" expanded="true" />
-            <element signature="e#5200#5201#0" expanded="true" />
-            <element signature="e#5734#5735#0" expanded="true" />
-            <element signature="e#5755#5756#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeRecordReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeFileInputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="36" column="54" selection-start-line="36" selection-start-column="54" selection-end-line="36" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/job1/MyInputFormat.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_01multijob/job1/MyRecordReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/sortbyflow/FlowBeanSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/FlowBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/atguigu/大数据上课资料/Felix_01_尚硅谷大数据技术之Hadoop/2.资料/02_linux环境编译源码/hadoop-2.7.2-src/hadoop-common-project/hadoop-common/src/main/java/org/apache/hadoop/io/WritableComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -1327,13 +1172,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/instruction.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/instruction.txt" />
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
@@ -1403,17 +1242,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyDriver1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyMapper1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyrReducer1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MyOutputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1422,56 +1281,15 @@
     </entry>
     <entry file="file://D:/atguigu/大数据上课资料/Felix_01_尚硅谷大数据技术之Hadoop/2.资料/02_linux环境编译源码/hadoop-2.7.2-src/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-core/src/main/java/org/apache/hadoop/mapreduce/RecordWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="323">
           <caret line="37" column="34" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MyOutputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="20" column="21" lean-forward="true" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MyRecordWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyMapper2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyReducer2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1587#1603#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job1/MyDriver1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        <state relative-caret-position="836">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1480,18 +1298,101 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyDriver2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="209">
+          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyReducer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1729">
+          <caret line="97" column="24" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/job2/MyMapper2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/practice/_03bothfriend/MainDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="437">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeRecordReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/partition/DiyPartitioner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/diyserialize/StatisticReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeFileInputFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/mr/inputFormatPractice/diyinputformat/WholeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="45" column="21" selection-start-line="11" selection-start-column="8" selection-end-line="45" selection-end-column="21" />
         </state>
       </provider>
     </entry>

@@ -25,5 +25,18 @@
             <artifactId>zookeeper</artifactId>
             <version>3.4.10</version>
         </dependency>
+
+
+        <!--ZK实现分布式锁依赖-->
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>4.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.curator</groupId>
+            <artifactId>curator-recipes</artifactId>
+            <version>2.7.1</version>
+        </dependency>
     </dependencies>
 </project>

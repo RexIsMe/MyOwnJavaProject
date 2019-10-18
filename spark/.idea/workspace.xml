@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87dcc1a4-a106-4279-841f-48208af29541" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/myOwn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIVE/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIVE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIVE/HIVE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/ETLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/VideoETLMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/VideoETLRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etlpractice/MyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etlpractice/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/flume/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogETLInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogTypeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/hive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/hive/src/main/java/com/atguigu/udf/BaseFieldUDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/hive/src/main/java/com/atguigu/udtf/EventJsonUDTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/appclient/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppActive_background.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppActive_foreground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppAd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppErrorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppFavorites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppNewsDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppPraise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dataWarehouse/logCollector/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoNote/src/test/java/leetcode/_03goodidea/_03_goodidea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demoNote/src/test/java/understandingthejvm/section6/section6_3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flume/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flume/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MySink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flume/src/main/resources/Log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hbase/hbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hbase/src/main/java/com/atguigu/hbase/HbaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hbase/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/Snipaste_2019-09-20_11-15-49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/collection/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/interfacess/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/TestAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/TestClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/TestInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/TestMethod2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/TestProtected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/teach/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/unkonw/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/unkonw/TestClassLoad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/java/com/atguigu/unkonw/TestClassLoad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/resources/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter1/H.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestAdvanceMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestAnonymityMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestDecalreMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestLesser.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestMethodAndWay.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter6/TestImport.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter6/TestTrait.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter7/Practice.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter7/SimpleWordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter7/TestAdvanceMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter7/TestBasicMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter7/TestNormalOperator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter8/TestImplicit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/test/Common.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/test/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/test/WhereToUse_.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input/user_visit_action.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/stream/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/SQL/DealHive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/SQL/SparkSQL04_Hive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/SQL/UDAFTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/AdvanceVar/RDD_Accumu1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/AdvanceVar/RDD_Accumu2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CacheDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CheckPointDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/ReadDataFrom/FromMysql.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/action/CommonTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/Common.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/NewRDD.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/Practice1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/Serializable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/partitioner/DIYPartitioner.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/partitioner/PartitionerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/partitioner/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealHbase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealJson.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealMysql.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealObjectFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealSequenceFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealText.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/BetweenTwoValue/Common.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType1/GroupByAndSoOn.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType1/PartitionBy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/Cogroup.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/MapValues.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/SortByKey.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/join.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/AboutMap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/Distinct.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/Filter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/Glom.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/GroupBy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/Sample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type2/Coalesce.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type2/SortBy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transportrdd/KryoTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transportrdd/TransMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment3_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment4_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/sparkstreaming/HelloWorld.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/sparkstreaming/KafkaSource.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/WordCountAll.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/_3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/_4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/_5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/_6.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/_7.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/wordcount/_8.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/impl/LockImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoNote/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoNote/src/test/java/leetcode/_031/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoNote/src/test/java/leetcode/_031/LongestSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kafka/src/main/java/com/atguigu/interceptor/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/src/main/java/com/atguigu/interceptor/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter2/TestString.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter2/TestString.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/WordCount.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/Common.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+              <folding>
+                <element signature="e#39#88#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CacheDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="27" column="14" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CheckPointDemo.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/AboutMap.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/MapValues.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/NewRDD.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="28" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/executor/Executor.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2185">
+              <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/shuffle/ShuffleWriter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/shuffle/sort/SortShuffleWriter.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Scala Object" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>FilterFunction</find>
+      <find>Builder</find>
+      <find>java.util.map</find>
+      <find>SparkSubmit</find>
+      <find>action</find>
+      <find>org.apache.spark.deploy.yarn.Client</find>
+      <find>sparksubmit</find>
+      <find>yarn</find>
+      <find>childMainClass</find>
+      <find>yarn.client</find>
+      <find>am*client</find>
+      <find>ApplicationMaster</find>
+      <find>CoarseGrainedExecutorBackend</find>
+      <find>main</find>
+      <find>rmClient</find>
+      <find>shufflemapstage</find>
+      <find>executor</find>
+      <find>write</find>
+      <find>var write</find>
+      <find>compute</find>
+      <find>mapPartitionsWithIndex</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_4.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment3_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/map.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/Glom.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment4_1.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/Filter.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/GroupBy.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/Simple.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/Sample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/Distinct.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/type1/Sample.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/type2/Coalesce.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/type2/SortBy.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/BetweenTwoValue/Common.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType1/PartitionBy.scala" />
+        <option value="D:/software/worksoftWare/maven/3.2.2/apache-maven-3.2.2/conf/settings.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType1/GroupByAndSoOn.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType2/SortByKey.scala" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType2/MapValues.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType2/join.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType2/Cogroup.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/sparkstreaming/HelloWorld.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/sparkstreaming/KafkaSource.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/action/CommonTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transportrdd/TransMethod.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transportrdd/KryoTest.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/common/WordCount.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/Persist/CacheDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/PersistAndCheckPoint/CacheDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/PersistAndCheckPoint/CheckPointDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CheckPointDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/partitioner/PartitionerDemo.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/partitioner/Test.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/partitioner/DIYPartitioner.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealText.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealJson.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealSequenceFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealObjectFile.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealHbase.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealMysql.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/SQL/DealHive.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/SQL/UDAFTest.scala" />
+        <option value="$PROJECT_DIR$/input/1.json" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/SQL/SparkSQL04_Hive.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/Common.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\worksoftWare\maven\RepMaven" />
+        <option name="mavenHome" value="D:/software/worksoftWare/maven/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="D:\software\worksoftWare\maven\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.spark:spark-yarn_2.11:2.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="org.apache.spark:spark-yarn_2.11:2.1.1" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+          <item name="org.apache.hadoop:hadoop-yarn-api:2.2.0" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-client:2.2.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-client:2.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-client-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-client:2.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-client-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-client:2.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-client-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-client:2.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-client-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-common:2.2.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-common:2.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-common-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-common:2.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-common-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="yarn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.hadoop:hadoop-yarn-common:2.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="hadoop-yarn-common-2.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="yarn" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="scheduler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-yarn_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-yarn_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-yarn_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-yarn_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-yarn_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-yarn_2.11:2.1.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-yarn_2.11-2.1.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="yarn" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.spark.core.readandsavedata" />
+      <recent name="com.atguigu.sparkstreaming" />
+      <recent name="com.atguigu.spark.transformations.TupleType2" />
+      <recent name="com.atguigu.spark.transformations.TupleType1" />
+      <recent name="com.atguigu.spark.transformations.type2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workSpace\myOwn\spark\src\main\resources" />
+      <recent name="D:\workSpace\myOwn\spark\src\main\scala\com\atguigu\spark\SQL" />
+      <recent name="D:\workSpace\myOwn\spark\src\main\scala\com\atguigu\spark\practice" />
+      <recent name="D:\workSpace\myOwn\spark\input" />
+      <recent name="D:\workSpace\myOwn\spark\src\main\scala\com\atguigu\spark\AdvanceVar" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Common">
+    <configuration name="Common" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.common.Common" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spark.core.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DealMysql" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.readandsavedata.DealMysql" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spark.core.readandsavedata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DealObjectFile" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.readandsavedata.DealObjectFile" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spark.core.readandsavedata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkSQL04_Hive" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.SQL.SparkSQL04_Hive" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spark.SQL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UDAFTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.SQL.UDAFTest" />
+      <module name="spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spark.SQL.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Common" />
+        <item itemvalue="Application.SparkSQL04_Hive" />
+        <item itemvalue="Application.UDAFTest" />
+        <item itemvalue="Application.DealMysql" />
+        <item itemvalue="Application.DealObjectFile" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87dcc1a4-a106-4279-841f-48208af29541" name="Default Changelist" comment="" />
+      <created>1569557399717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569557399717</updated>
+      <workItem from="1569557403687" duration="4158000" />
+      <workItem from="1569630934037" duration="14738000" />
+      <workItem from="1569741780805" duration="5167000" />
+      <workItem from="1569804027460" duration="2761000" />
+      <workItem from="1570492487205" duration="10525000" />
+      <workItem from="1570580305781" duration="24615000" />
+      <workItem from="1570665431117" duration="11646000" />
+      <workItem from="1570753059684" duration="3438000" />
+      <workItem from="1570759890966" duration="2936000" />
+      <workItem from="1570764111062" duration="21478000" />
+      <workItem from="1570846117468" duration="1857000" />
+      <workItem from="1570854153338" duration="4226000" />
+      <workItem from="1570949372803" duration="1784000" />
+      <workItem from="1571013463865" duration="8647000" />
+      <workItem from="1571120292524" duration="3343000" />
+      <workItem from="1571212180140" duration="673000" />
+      <workItem from="1571357895883" duration="374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="122366000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="798" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Structure" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.6711712" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.21321322" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49932975" weight="0.32882884" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49932975" weight="0.32882884" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50268096" side_tool="true" weight="0.2882883" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.49932975" weight="0.32882884" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49932975" weight="0.32882884" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49597856" weight="0.25675675" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32372653" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/AdvanceVar/RDD_Accumu2.scala</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_1.scala</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>textRDD</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0.jar!/org/apache/hadoop/yarn/client/api/impl/AMRMClientImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="90" column="19" selection-start-line="90" selection-start-column="19" selection-end-line="90" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar!/org/apache/hadoop/yarn/api/protocolrecords/StartContainersRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar!/org/apache/hadoop/yarn/api/protocolrecords/StartContainersResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0-sources.jar!/org/apache/hadoop/yarn/api/impl/pb/client/ContainerManagementProtocolPBClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="90" column="6" selection-start-line="90" selection-start-column="6" selection-end-line="90" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar!/org/apache/hadoop/yarn/api/ContainerManagementProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0-sources.jar!/org/apache/hadoop/yarn/api/records/impl/pb/ContainerLaunchContextPBImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="282" column="14" selection-start-line="282" selection-start-column="14" selection-end-line="282" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar!/org/apache/hadoop/yarn/api/records/ContainerLaunchContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0-sources.jar!/org/apache/hadoop/yarn/client/api/NMClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="83" column="51" selection-start-line="83" selection-start-column="29" selection-end-line="83" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar!/org/apache/hadoop/yarn/api/protocolrecords/StartContainerRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0-sources.jar!/org/apache/hadoop/yarn/client/api/impl/NMClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="185" column="48" selection-start-line="185" selection-start-column="43" selection-end-line="185" selection-end-column="48" />
+          <folding>
+            <element signature="e#4330#4331#0" expanded="true" />
+            <element signature="e#4351#4352#0" expanded="true" />
+            <element signature="e#7534#7557#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-yarn_2.11/2.1.1/spark-yarn_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/cluster/YarnClusterScheduler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-yarn_2.11/2.1.1/spark-yarn_2.11-2.1.1-sources.jar!/org/apache/spark/deploy/yarn/ApplicationMaster.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="367" column="23" selection-start-line="367" selection-start-column="23" selection-end-line="367" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-yarn_2.11/2.1.1/spark-yarn_2.11-2.1.1-sources.jar!/org/apache/spark/deploy/yarn/YarnAllocator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="519" column="19" lean-forward="true" selection-start-line="519" selection-start-column="19" selection-end-line="519" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rpc/RpcTimeout.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="969" column="23" selection-start-line="969" selection-start-column="23" selection-end-line="969" selection-end-column="23" />
+          <folding>
+            <element signature="e#40171#40172#0" expanded="true" />
+            <element signature="e#40220#40221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/util/Utils.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="2533" column="6" selection-start-line="2533" selection-start-column="6" selection-end-line="2533" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/SparkEnv.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="191" column="39" lean-forward="true" selection-start-line="191" selection-start-column="39" selection-end-line="191" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rpc/netty/NettyRpcEnv.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rpc/RpcEnv.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="69" column="36" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/executor/CoarseGrainedExecutorBackend.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="245" column="27" lean-forward="true" selection-start-line="245" selection-start-column="27" selection-end-line="245" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0-sources.jar!/org/apache/hadoop/yarn/client/ClientRMProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-common/2.2.0/hadoop-yarn-common-2.2.0-sources.jar!/org/apache/hadoop/yarn/api/impl/pb/client/ApplicationMasterProtocolPBClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-api/2.2.0/hadoop-yarn-api-2.2.0.jar!/org/apache/hadoop/yarn/api/ApplicationMasterProtocol.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-yarn-client/2.2.0/hadoop-yarn-client-2.2.0-sources.jar!/org/apache/hadoop/yarn/client/api/impl/AMRMClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="165" column="17" selection-start-line="165" selection-start-column="17" selection-end-line="165" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/hadoop/hadoop-common/2.5.1/hadoop-common-2.5.1-sources.jar!/org/apache/hadoop/service/AbstractService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="183" column="14" selection-start-line="183" selection-start-column="14" selection-end-line="183" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-yarn_2.11/2.1.1/spark-yarn_2.11-2.1.1-sources.jar!/org/apache/spark/deploy/yarn/ExecutorRunnable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="131" column="48" lean-forward="true" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
+          <folding>
+            <element signature="e#840#859#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/ShuffleMapStage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/OutputCommitCoordinator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/DAGScheduler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="931" column="14" selection-start-line="931" selection-start-column="14" selection-end-line="931" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/SQL/SparkSQL04_Hive.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#31#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_1.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/practice/Requestment1_3.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-streaming_2.11/2.1.1/spark-streaming_2.11-2.1.1-sources.jar!/org/apache/spark/streaming/dstream/ShuffledDStream.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-streaming_2.11/2.1.1/spark-streaming_2.11-2.1.1-sources.jar!/org/apache/spark/streaming/dstream/PairDStreamFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/sparkstreaming/HelloWorld.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/ShuffledRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/ShuffleMapTask.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/Task.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/ResultTask.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/ResultStage.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CacheDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CheckPointDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/AboutMap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/MapValues.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/NewRDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/executor/Executor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2185">
+          <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/shuffle/ShuffleWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/shuffle/sort/SortShuffleWriter.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/Common.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+          <folding>
+            <element signature="e#39#88#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.11.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>spark</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

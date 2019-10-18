@@ -2,15 +2,177 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe47dd30-5413-4580-98f8-d50113606a35" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/AccessControl/common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/AccessControl/debug/DebugTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/AccessControl/debugoff/DebugTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/InitializeAndClear/ArrayInit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/InitializeAndClear/EnumTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/reuseclass/FinalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/reuseclass/LoadClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/reuseclass/common.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/InitializeAndClear/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoNote/src/test/java/ThinkingInJava/InitializeAndClear/Practice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/myOwn.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HIVE/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HIVE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HIVE/HIVE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HIVE/src/main/java/com/atguigu/hive/etl/ETLUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HIVE/src/main/java/com/atguigu/hive/etl/VideoETLMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HIVE/src/main/java/com/atguigu/hive/etl/VideoETLRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HIVE/src/main/java/com/atguigu/hive/etlpractice/MyDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HIVE/src/main/java/com/atguigu/hive/etlpractice/MyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/flume/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogETLInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogTypeInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/flume/src/main/java/com/atguigu/flume/interceptor/LogUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/hive/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/hive/src/main/java/com/atguigu/udf/BaseFieldUDF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/hive/src/main/java/com/atguigu/udtf/EventJsonUDTF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/appclient/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppActive_background.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppActive_foreground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppAd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppErrorLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppFavorites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppLoading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppNewsDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppPraise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/java/com/atguigu/bean/AppStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataWarehouse/logCollector/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/leetcode/_03goodidea/_03_goodidea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demoNote/src/test/java/understandingthejvm/section6/section6_3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flume/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flume/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/atguigu/flume/MyInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/atguigu/flume/MySink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flume/src/main/java/com/atguigu/flume/MySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/flume/src/main/resources/Log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/hbase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/atguigu/hbase/HbaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/Snipaste_2019-09-20_11-15-49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/collection/TestMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/interfacess/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/TestAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/TestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/TestClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/TestInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/TestMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/TestMethod2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/TestProtected.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/teach/TestString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/unkonw/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/unkonw/TestClassLoad1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/java/com/atguigu/unkonw/TestClassLoad2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/resources/test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter1/H.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter5/TestAdvanceMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter5/TestAnonymityMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter5/TestDecalreMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter5/TestLesser.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter5/TestMethodAndWay.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter6/TestImport.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter6/TestTrait.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter7/Practice.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter7/SimpleWordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter7/TestAdvanceMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter7/TestBasicMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter7/TestNormalOperator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter8/TestImplicit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/test/Common.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/test/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/test/WhereToUse_.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/7.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/input/user_visit_action.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/java/com/atguigu/stream/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/resources/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/SQL/DealHive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/SQL/SparkSQL04_Hive.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/SQL/UDAFTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/AdvanceVar/RDD_Accumu1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/AdvanceVar/RDD_Accumu2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CacheDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CheckPointDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/ReadDataFrom/FromMysql.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/action/CommonTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/common/Common.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/common/NewRDD.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/common/Practice1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/common/Serializable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/common/WordCount.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/partitioner/DIYPartitioner.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/partitioner/PartitionerDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/partitioner/Test.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/readandsavedata/DealHbase.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/readandsavedata/DealJson.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/readandsavedata/DealMysql.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/readandsavedata/DealObjectFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/readandsavedata/DealSequenceFile.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/readandsavedata/DealText.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/BetweenTwoValue/Common.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/TupleType1/GroupByAndSoOn.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/TupleType1/PartitionBy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/Cogroup.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/MapValues.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/SortByKey.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/join.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/type1/AboutMap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/type1/Distinct.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/type1/Filter.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/type1/Glom.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/type1/GroupBy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/type1/Sample.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/type2/Coalesce.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transformations/type2/SortBy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transportrdd/KryoTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/core/transportrdd/TransMethod.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/practice/Requestment1_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/practice/Requestment1_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/practice/Requestment1_3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/practice/Requestment1_4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/practice/Requestment3_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/practice/Requestment4_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/sparkstreaming/HelloWorld.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/spark/sparkstreaming/KafkaSource.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/WordCountAll.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/_1.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/_2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/_3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/_4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/_5.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/_6.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/_7.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spark/src/main/scala/com/atguigu/wordcount/_8.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/atguigu/zk/distributionlock/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/atguigu/zk/distributionlock/Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zookeeper/src/main/java/com/atguigu/zk/distributionlock/impl/LockImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoNote/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demoNote/src/test/java/leetcode/_031/LongestSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/demoNote/src/test/java/leetcode/_031/LongestSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop/HDFSClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop/HDFSClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka/src/main/java/com/atguigu/interceptor/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/src/main/java/com/atguigu/interceptor/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter2/TestString.scala" beforeDir="false" afterPath="$PROJECT_DIR$/scala/src/main/scala/com/atguigu/chapter2/TestString.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zookeeper/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +188,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="85" />
     <option name="y" value="25" />
     <option name="width" value="1750" />
@@ -37,19 +199,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="HDFSclient" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myOwn" type="b2602c69:ProjectViewProjectNode" />
               <item name="myOwn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -82,27 +244,24 @@
       <option name="presentableId" value="Default" />
       <updated>1563778390609</updated>
       <workItem from="1563778394554" duration="79000" />
+      <workItem from="1571212309334" duration="12000" />
+      <workItem from="1571358259965" duration="47000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79000" />
+    <option name="totallyTimeSpent" value="138000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="798" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="798" extended-state="7" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22453083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22989276" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -110,23 +269,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
   </component>
 </project>

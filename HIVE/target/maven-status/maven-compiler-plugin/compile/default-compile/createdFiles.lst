@@ -1,0 +1,5 @@
+com\atguigu\hive\etl\VideoETLMapper.class
+com\atguigu\hive\etlpractice\MyMapper.class
+com\atguigu\hive\etlpractice\MyDriver.class
+com\atguigu\hive\etl\ETLUtil.class
+com\atguigu\hive\etl\VideoETLRunner.class

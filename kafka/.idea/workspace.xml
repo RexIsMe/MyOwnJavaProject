@@ -27,31 +27,20 @@
       <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MySource.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flume/src/main/resources/Log4j.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../hbase/hbase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/AsyncCommitConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/AutoCommitConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/CustomConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/MyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/SyncCommitConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/CountInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/TimeInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/kafka/producer/AsyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/kafka/producer/SyncProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/kafka_consumer.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/kafka_producer.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hbase/src/main/java/com/atguigu/hbase/HbaseClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hbase/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/Lock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/impl/LockImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demoNote/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoNote/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demoNote/src/test/java/ThinkingInJava/reuseclass/common.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoNote/src/test/java/ThinkingInJava/reuseclass/common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demoNote/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoNote/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/Common.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -67,25 +56,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/consumer/MyConsumer.java">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar!/org/junit/jupiter/api/Test.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="99" column="5" selection-start-line="81" selection-start-column="4" selection-end-line="99" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/Common.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="266">
+              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -93,8 +67,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
+            <state relative-caret-position="318">
+              <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -206,13 +180,14 @@
         <option value="$PROJECT_DIR$/target/classes/kafka_consumer.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/kafka_consumer.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/AsyncCommitConsumer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/CustomConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/consumer/MyConsumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/TimeInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/CountInterceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/Common.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/weibopractice/WeiboMain.java" />
       </list>
     </option>
   </component>
@@ -232,9 +207,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="16" />
-    <option name="y" value="30" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="41" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -244,6 +218,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -283,42 +258,12 @@
               <item name="kafka" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="producer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafka" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -445,8 +390,17 @@
       <workItem from="1565665239644" duration="10793000" />
       <workItem from="1565739900508" duration="4264000" />
       <workItem from="1565916847755" duration="840000" />
-      <workItem from="1565918106363" duration="454000" />
+      <workItem from="1565918106363" duration="1864000" />
+      <workItem from="1566008009560" duration="950000" />
     </task>
+    <task id="LOCAL-00001" summary="daily">
+      <created>1565918674036</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1565918674036</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -455,7 +409,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17718000" />
+    <option name="totallyTimeSpent" value="20078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,9 +421,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="13" y="24" width="1400" height="784" extended-state="1" />
+    <frame x="33" y="0" width="1400" height="784" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6809816" visible="true" weight="0.26453054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6809816" visible="true" weight="0.26825634" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -502,6 +457,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="daily" />
+    <option name="LAST_COMMIT_MESSAGE" value="daily" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
@@ -634,11 +593,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/interceptor/Common.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        <state relative-caret-position="247">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar!/org/junit/jupiter/api/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -708,10 +674,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/weibopractice/WeiboMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="17" selection-end-column="21" />
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
         </state>
       </provider>
     </entry>

@@ -5,6 +5,7 @@ import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
 import org.apache.kafka.clients.producer.*;
+import org.junit.jupiter.api.Test;
 
 import java.io.FileInputStream;
 import java.util.*;
@@ -18,6 +19,11 @@ import java.util.concurrent.Future;
  * @date 2019/8/148:14
  */
 public class Common {
+
+    @Test
+    public void test(){
+        System.out.println(1);
+    }
 
         public static void main(String[] args) throws Exception {
             // 1 设置配置信息
