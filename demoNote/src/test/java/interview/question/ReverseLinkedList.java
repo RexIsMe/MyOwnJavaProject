@@ -8,4 +8,16 @@ package interview.question;
  * @date 2019/10/188:33
  */
 public class ReverseLinkedList {
+
+    private ReverseLinkedList() {
+    }
+
+    public static void main(String[] args) {
+
+
+
+    }
+
+
+
 }

@@ -5,7 +5,7 @@ object BinarySearchTest {
 
     val arr = Array(4, 5, 90, 100, 900, 1000)
 
-    val index = binarySearch2(arr, 0, arr.length - 1, 4)
+    val index = binarySearch2(arr, 0, arr.length - 1, 6)
     println("index=" + index)
 
 

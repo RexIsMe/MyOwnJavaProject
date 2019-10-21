@@ -1,0 +1,27 @@
+#!/bin/bash
+
+function print_usage(){
+cat << EOF
+usage HIVE
+	start 后台开启hive
+	stop 杀死hive进程
+EOF
+}
+
+case $1 in
+	"start" | "START")
+	echo '=========starting hive......==========='
+	nohup hiveserver2 > /opt/sh/hive.log 2>&1 &
+	echo $! > /opt/sh/hive_pid
+	echo "=========hive started success, PID:$!==========="
+	;;
+	
+	"stop" | "STOP")
+	echo '=========stoping hive......==========='
+	cat /opt/sh/hive_pid | xargs kill -9
+        echo '=========hive stoped success==========='
+	;;
+	*)
+	print_usage
+	;;
+esac

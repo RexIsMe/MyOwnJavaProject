@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44ec8b4e-1e87-41d0-908e-f7ea5fdf93cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../demoNote/src/test/java/interview/question/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-common/realtimegmall-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-common/realtimegmallcommon.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-mock/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-mock/realtimegmallmock.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-mock/src/main/java/com/atguigu/rtgmall/mock/util/JsonMocker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-mock/src/main/java/com/atguigu/rtgmall/mock/util/LogUploader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-mock/src/main/java/com/atguigu/rtgmall/mock/util/RanOpt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-mock/src/main/java/com/atguigu/rtgmall/mock/util/RandomDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-mock/src/main/java/com/atguigu/rtgmall/mock/util/RandomNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-mock/src/main/java/com/atguigu/rtgmall/mock/util/RandomOptionGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../realtimegmall/realtimegmall-parent.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/bigdata/spark/streaming/CloseGentlily.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoNote/src/test/java/interview/question/ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoNote/src/test/java/interview/question/ReverseLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/src/main/scala/scala0513/com/atguigu/datastructure0513/search/BinarySearchTest.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/src/main/scala/scala0513/com/atguigu/datastructure0513/search/BinarySearchTest.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/target/classes/scala0513/com/atguigu/datastructure0513/search/BinarySearchTest$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/target/classes/scala0513/com/atguigu/datastructure0513/search/BinarySearchTest$.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/bigdata/spark/streaming/CloseGentlily.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/bigdata/spark/streaming/CloseGentlily.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\worksoftWare\maven\RepMaven" />
+        <option name="mavenHome" value="D:/software/worksoftWare/maven/3.2.2/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="D:\software\worksoftWare\maven\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-190513" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spark-190513" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/spark-190513.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="5" />
+    <option name="y" value="15" />
+    <option name="width" value="1349" />
+    <option name="height" value="690" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spark-190513" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-190513" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-190513" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-190513" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-190513" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-190513" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-190513" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-190513" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-190513" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-190513" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark-190513" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark-190513" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="streaming" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44ec8b4e-1e87-41d0-908e-f7ea5fdf93cb" name="Default Changelist" comment="" />
+      <created>1571642837761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571642837761</updated>
+      <workItem from="1571642840276" duration="597000" />
+      <workItem from="1571643844673" duration="973000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1570000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="798" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24932976" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Jms Messenger" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/bigdata/spark/streaming/CloseGentlily.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

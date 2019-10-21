@@ -1,0 +1,46 @@
+#!/bin/bash
+
+
+
+function print_usage(){
+cat << EOF
+	start : 开启hbase
+	stop  : 关闭hbase
+EOF
+}
+
+
+arg1=$1
+
+for host in hadoop102 hadoop103 hadoop104
+do
+	case $arg1 in
+	"start" | "START")
+		if [ $host = "hadoop102" ]
+		then 
+			ssh $host 'hbase-daemon.sh start master'
+			echo "started hbase master on $host"
+			
+		fi
+
+		ssh $host 'hbase-daemon.sh start regionserver'
+		echo "started hbase regionserver on $host"
+
+	;;
+	"stop" | "STOP")	
+		ssh $host 'hbase-daemon.sh stop regionserver'
+		echo "stoped $host regionserver"		
+
+		if [ $host = "hadoop102" ]
+		then 
+			ssh $host 'hbase-daemon.sh stop master'
+			echo "stoped hbase master on $host"
+		fi
+	;;
+	*)
+		print_usage
+		break
+	;;
+	esac
+done
+
