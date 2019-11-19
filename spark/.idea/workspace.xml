@@ -21,6 +21,90 @@
       <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/test/SinkTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/test/WindowTest.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../flink/UserBehaviorAnalysis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__io_netty_netty_3_6_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__junit_junit_4_13_rc_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_curator_curator_client_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_curator_curator_framework_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/HDFS-client.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
@@ -239,38 +323,17 @@
       <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hive-site_back.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j_back.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapred-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/yarn-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/bean/Models.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/AdsMemberController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwdMemberController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwsMemberController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/dao/DwdMemberDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/dao/DwsMemberDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/AdsMemberService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/DwsMemberService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/EtlDataService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/bean/Models.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwdController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/AdsQzDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/QzChapterDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/QzCourseDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/QzMajorDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/QzPaperDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/QzQuestionDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/UserPaperDetailDao.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/AdsQzService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/DwsQzService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/EtlDataService.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/util/HiveUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/util/ParseJsonData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/train/UserRegistETL.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/SaveToHdfs.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/bean/Models.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController3.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController4.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/dao/DwdSellCourseDao.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/service/DwdSellCourseService.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/service/DwsSellCourseService.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
@@ -464,8 +527,14 @@
       <change afterPath="$PROJECT_DIR$/../项目实战/education-online/education-online.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../HIVE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HIVE/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../gmall0513-parent" beforeDir="false" afterPath="$PROJECT_DIR$/../gmall0513-parent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/src/main/java/com/atguigu/hdfs/HdfsIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/src/main/java/com/atguigu/hdfs/HdfsIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/target/classes/META-INF/HDFSClient.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/target/classes/com/atguigu/hdfs/HdfsIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/target/classes/com/atguigu/hdfs/HdfsIO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestAnonymityMethod.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestAnonymityMethod.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../scala/target/classes/com/atguigu/chapter5/TestAnonymityMethod$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/target/classes/com/atguigu/chapter5/TestAnonymityMethod$.class" afterDir="false" />
@@ -488,17 +557,11 @@
       <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/test/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/test/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spark-190513/target/spark-190513-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/target/spark-190513-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hive-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hive-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transportrdd/TransMethod.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transportrdd/TransMethod.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/SearcherKryo$$anonfun$getMatchedRDD1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/SearcherKryo$$anonfun$getMatchedRDD1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/SearcherKryo$$anonfun$getMatchedRDD2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/SearcherKryo$$anonfun$getMatchedRDD2$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/SearcherKryo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/SearcherKryo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/TransMethod$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/TransMethod$$anonfun$main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/TransMethod$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/atguigu/spark/core/transportrdd/TransMethod$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hive-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hive-site.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwsMemberController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwsMemberController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/DwsMemberService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/DwsMemberService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/AdsQzService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/AdsQzService.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../teacher/gmall0513-parent" beforeDir="false" afterPath="$PROJECT_DIR$/../teacher/gmall0513-parent" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/compiler.xml" afterDir="false" />
@@ -538,108 +601,121 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwdMemberController.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="100" column="54" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
+            <state relative-caret-position="424">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="e#47#103#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwdController.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/EtlDataService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
+            <state relative-caret-position="185">
+              <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
               <folding>
-                <element signature="e#43#95#0" expanded="true" />
+                <element signature="e#44#82#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/SaveToHdfs.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="56" />
+              <folding>
+                <element signature="e#48#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <folding>
+                <element signature="e#51#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <folding>
+                <element signature="e#51#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController3.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="e#51#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController4.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="e#51#117#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/service/DwsSellCourseService.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+              <folding>
+                <element signature="e#48#129#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController2.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#51#117#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/AdsQzService.scala">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/service/DwdSellCourseService.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="227">
+              <caret line="138" column="27" lean-forward="true" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="79" />
               <folding>
-                <element signature="e#40#82#0" expanded="true" />
+                <element signature="e#48#86#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-              <folding>
-                <element signature="e#43#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-              <folding>
-                <element signature="e#43#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/DwsQzService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="108" />
-              <folding>
-                <element signature="e#40#160#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/EtlDataService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="487" column="13" selection-start-line="487" selection-start-column="13" selection-end-line="487" selection-end-column="13" />
-              <folding>
-                <element signature="e#40#78#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/AdsQzDao.scala">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/AdsMemberService.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1919">
-              <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
-              <folding>
-                <element signature="e#44#94#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/dao/DwsMemberDao.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -656,12 +732,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>SparkSubmit</find>
-      <find>action</find>
-      <find>org.apache.spark.deploy.yarn.Client</find>
-      <find>sparksubmit</find>
-      <find>yarn</find>
-      <find>childMainClass</find>
       <find>yarn.client</find>
       <find>am*client</find>
       <find>ApplicationMaster</find>
@@ -686,6 +756,12 @@
       <find>dws_member_zipper</find>
       <find>implicits</find>
       <find>from</find>
+      <find>及格率</find>
+      <find>unpresist</find>
+      <find>unpersi</find>
+      <find>catalog</find>
+      <find>over(</find>
+      <find>while</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -694,16 +770,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/type2/SortBy.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/BetweenTwoValue/Common.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType1/PartitionBy.scala" />
-        <option value="D:/software/worksoftWare/maven/3.2.2/apache-maven-3.2.2/conf/settings.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType1/GroupByAndSoOn.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType2/SortByKey.scala" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType2/MapValues.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType2/join.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/transformations/TupleType2/Cogroup.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/sparkstreaming/HelloWorld.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/sparkstreaming/KafkaSource.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/action/CommonTest.scala" />
@@ -734,17 +800,27 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/AdsMemberService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/train/UserRegistETL.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/EtlDataService.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/DwsMemberService.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/AdsMemberController.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwsMemberController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/AdsQzDao.scala" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/EtlDataService.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwdController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/DwsQzService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/AdsQzService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/DwsMemberService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwsMemberController.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/dao/DwdSellCourseDao.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/service/DwdSellCourseService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/service/DwsSellCourseService.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/SaveToHdfs.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController2.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController3.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController4.scala" />
       </list>
     </option>
   </component>
@@ -830,15 +906,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="teacher" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -849,7 +916,7 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="qz" type="462c0819:PsiDirectoryNode" />
+              <item name="member" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spark" type="b2602c69:ProjectViewProjectNode" />
@@ -859,44 +926,18 @@
               <item name="scala" type="462c0819:PsiDirectoryNode" />
               <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="qz" type="462c0819:PsiDirectoryNode" />
+              <item name="sellcourse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spark" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+              <item name="teacher" type="462c0819:PsiDirectoryNode" />
+              <item name="sellcourse" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="qz" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="AdsController$" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="qz" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="DwdController$" type="ce8f04f3:TypeDefinitionNode" />
-            </path>
-            <path>
-              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
-              <item name="teacher" type="462c0819:PsiDirectoryNode" />
-              <item name="qz" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="DwsController$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
             <path>
               <item name="spark" type="b2602c69:ProjectViewProjectNode" />
@@ -945,7 +986,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/com/atguigu/teacher" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hadoop/HDFSClient/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -982,13 +1023,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DwdController">
-    <configuration name="AdsMemberController" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.teacher.member.controller.AdsMemberController" />
+  <component name="RunManager" selected="Application.SaveToHdfs">
+    <configuration name="AdsController" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.teacher.qz.controller.AdsController" />
       <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.teacher.member.controller.*" />
+          <option name="PATTERN" value="com.atguigu.teacher.qz.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1009,12 +1050,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DwdMemberController" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.teacher.member.controller.DwdMemberController" />
+    <configuration name="DwsController" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.teacher.qz.controller.DwsController" />
       <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.teacher.member.controller.*" />
+          <option name="PATTERN" value="com.atguigu.teacher.qz.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1035,12 +1076,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistETL" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.train.UserRegistETL" />
+    <configuration name="SaveToHdfs" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spark.core.readandsavedata.SaveToHdfs" />
       <module name="spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.train.*" />
+          <option name="PATTERN" value="com.atguigu.spark.core.readandsavedata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -1050,11 +1091,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DwdController" />
-        <item itemvalue="Application.AdsMemberController" />
+        <item itemvalue="Application.SaveToHdfs" />
         <item itemvalue="Application.DwsMemberController" />
-        <item itemvalue="Application.DwdMemberController" />
-        <item itemvalue="Application.UserRegistETL" />
+        <item itemvalue="Application.AdsController" />
+        <item itemvalue="Application.DwsController" />
+        <item itemvalue="Application.DwdController" />
       </list>
     </recent_temporary>
   </component>
@@ -1088,12 +1129,20 @@
       <workItem from="1573783412673" duration="4336000" />
       <workItem from="1573788119749" duration="23000" />
       <workItem from="1573788371380" duration="24749000" />
-      <workItem from="1574037517291" duration="2987000" />
+      <workItem from="1574037517291" duration="25418000" />
     </task>
+    <task id="LOCAL-00001" summary="项目实战">
+      <created>1574040720131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574040720131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154754000" />
+    <option name="totallyTimeSpent" value="177185000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1108,7 +1157,7 @@
     <frame x="-7" y="-7" width="1550" height="798" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16498993" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28034875" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -1117,7 +1166,7 @@
       <window_info id="Structure" order="6" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32882884" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.27177176" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49731904" visible="true" weight="0.3228228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21321322" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1128,11 +1177,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" sideWeight="0.49932975" weight="0.32882884" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.49932975" weight="0.32882884" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49597856" weight="0.4189189" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49597856" weight="0.42792794" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.22468142" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.14889336" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
@@ -1144,6 +1193,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目实战" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目实战" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1177,111 +1230,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/sparkstreaming/HelloWorld.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="104" column="15" selection-start-line="104" selection-start-column="15" selection-end-line="104" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/ShuffledRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="55" column="28" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/ShuffleMapTask.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/Task.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="73" column="13" selection-start-line="73" selection-start-column="13" selection-end-line="73" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/ResultTask.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="51" column="38" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/scheduler/ResultStage.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CacheDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/PersistAndCheckPoint/CheckPointDemo.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/type1/AboutMap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="39" column="33" selection-start-line="39" selection-start-column="33" selection-end-line="39" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/transformations/TupleType2/MapValues.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/common/NewRDD.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/executor/Executor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="151" column="31" selection-start-line="151" selection-start-column="31" selection-end-line="151" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/shuffle/ShuffleWriter.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="29" column="6" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/hive-site_back.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1343,13 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/action/CommonTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/AdvanceVar/RDD_Accumu1.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1402,13 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="375" column="6" selection-start-line="375" selection-start-column="6" selection-end-line="375" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/KeyValueGroupedDataset.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -1426,84 +1360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwdMemberController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
-          <folding>
-            <element signature="e#47#103#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/util/HiveUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwsMemberController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-          <folding>
-            <element signature="e#47#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/EtlDataService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/DwsMemberService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1805">
-          <caret line="101" column="40" selection-start-line="101" selection-start-column="40" selection-end-line="101" selection-end-column="40" />
-          <folding>
-            <element signature="e#44#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/AdsMemberController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#47#105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/AdsMemberService.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1919">
-          <caret line="105" column="45" selection-start-line="105" selection-start-column="45" selection-end-line="105" selection-end-column="45" />
-          <folding>
-            <element signature="e#44#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/dao/DwsMemberDao.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/AdsQzDao.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="100" column="54" selection-start-line="100" selection-start-column="54" selection-end-line="100" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -1513,26 +1373,6 @@
           <caret line="487" column="13" selection-start-line="487" selection-start-column="13" selection-end-line="487" selection-end-column="13" />
           <folding>
             <element signature="e#40#78#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwdController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="13" column="84" selection-start-line="13" selection-start-column="84" selection-end-line="13" selection-end-column="84" />
-          <folding>
-            <element signature="e#43#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="e#43#93#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1547,10 +1387,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/dao/AdsQzDao.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="305">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwdController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#43#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding>
             <element signature="e#43#93#0" expanded="true" />
           </folding>
@@ -1559,10 +1416,242 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/service/AdsQzService.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="285">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
           <folding>
             <element signature="e#40#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="2458" column="90" selection-start-line="2458" selection-start-column="90" selection-end-line="2458" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-sql_2.11/2.1.1/spark-sql_2.11-2.1.1-sources.jar!/org/apache/spark/sql/catalog/Catalog.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="321" column="6" selection-start-line="321" selection-start-column="6" selection-end-line="321" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+          <folding>
+            <element signature="e#43#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/AdsMemberController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding>
+            <element signature="e#47#105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/AdsMemberService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="100" column="18" selection-start-line="100" selection-start-column="18" selection-end-line="100" selection-end-column="18" />
+          <folding>
+            <element signature="e#44#94#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/software/worksoftWare/maven/RepMaven/org/apache/spark/spark-core_2.11/2.1.1/spark-core_2.11-2.1.1-sources.jar!/org/apache/spark/rdd/RDD.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="205" column="30" selection-start-line="205" selection-start-column="30" selection-end-line="205" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/DwsMemberService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="534">
+          <caret line="39" column="48" selection-start-line="39" selection-start-column="48" selection-end-line="39" selection-end-column="48" />
+          <folding>
+            <element signature="e#44#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwsMemberController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="e#47#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/dao/DwdSellCourseDao.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/bean/Models.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/util/HiveUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="140" column="53" lean-forward="true" selection-start-line="140" selection-start-column="53" selection-end-line="140" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealText.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="34" lean-forward="true" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#51#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/action/CommonTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/DealHbase.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-379">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/service/EtlDataService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="92" column="6" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+          <folding>
+            <element signature="e#44#82#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/member/controller/DwdMemberController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <element signature="e#47#103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/spark/core/readandsavedata/SaveToHdfs.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="28" column="25" lean-forward="true" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="56" />
+          <folding>
+            <element signature="e#48#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="e#51#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#51#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController3.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#51#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/service/DwsSellCourseService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="103" column="21" lean-forward="true" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+          <folding>
+            <element signature="e#48#129#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController4.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#51#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController2.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#51#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/atguigu/teacher/sellcourse/service/DwdSellCourseService.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="138" column="27" lean-forward="true" selection-start-line="138" selection-start-column="27" selection-end-line="138" selection-end-column="79" />
+          <folding>
+            <element signature="e#48#86#0" expanded="true" />
           </folding>
         </state>
       </provider>

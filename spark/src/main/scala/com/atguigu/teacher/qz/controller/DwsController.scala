@@ -7,8 +7,8 @@ import org.apache.spark.sql.SparkSession
 
 object DwsController {
   def main(args: Array[String]): Unit = {
-    System.setProperty("HADOOP_USER_NAME", "atguigu")
-    val sparkConf = new SparkConf().setAppName("dws_qz_controller")
+//    System.setProperty("HADOOP_USER_NAME", "atguigu")
+    val sparkConf = new SparkConf().setAppName("dws_qz_controller").setMaster("local[*]")
     val sparkSession = SparkSession.builder().config(sparkConf).enableHiveSupport().getOrCreate()
     val ssc = sparkSession.sparkContext
     ssc.hadoopConfiguration.set("fs.defaultFS", "hdfs://nameservice1")

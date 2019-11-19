@@ -18,18 +18,26 @@ object DwsMemberService {
     val dwdBaseWebsite = DwdMemberDao.getDwdBaseWebSite(sparkSession)
     val dwdPcentermemPaymoney = DwdMemberDao.getDwdPcentermemPayMoney(sparkSession)
     val dwdVipLevel = DwdMemberDao.getDwdVipLevel(sparkSession)
-    //    import org.apache.spark.sql.functions.broadcast
+        import org.apache.spark.sql.functions.broadcast
     val result = dwdMember.join(dwdMemberRegtype, Seq("uid", "dn"), "left")
-      .join(dwdBaseAd, Seq("ad_id", "dn"), "left_outer")
-      .join(dwdBaseWebsite, Seq("siteid", "dn"), "left_outer")
-      .join(dwdPcentermemPaymoney, Seq("uid", "dn"), "left_outer")
-      .join(dwdVipLevel, Seq("vip_id", "dn"), "left_outer")
+      .join(broadcast(dwdBaseAd), Seq("ad_id", "dn"), "left_outer")
+      .join(broadcast(dwdBaseWebsite), Seq("siteid", "dn"), "left_outer")
+      .join(broadcast(dwdPcentermemPaymoney), Seq("uid", "dn"), "left_outer")
+      .join(broadcast(dwdVipLevel), Seq("vip_id", "dn"), "left_outer")
+
+//    val result = dwdMember.join(dwdMemberRegtype, Seq("uid", "dn"), "left")
+//      .join(dwdBaseAd, Seq("ad_id", "dn"), "left_outer")
+//      .join(dwdBaseWebsite, Seq("siteid", "dn"), "left_outer")
+//      .join(dwdPcentermemPaymoney, Seq("uid", "dn"), "left_outer")
+//      .join(dwdVipLevel, Seq("vip_id", "dn"), "left_outer")
       .select("uid", "ad_id", "fullname", "iconurl", "lastlogin", "mailaddr", "memberlevel", "password"
         , "paymoney", "phone", "qq", "register", "regupdatetime", "unitname", "userip", "zipcode", "appkey"
         , "appregurl", "bdp_uuid", "reg_createtime", "isranreg", "regsource", "regsourcename", "adname"
         , "siteid", "sitename", "siteurl", "site_delete", "site_createtime", "site_creator", "vip_id", "vip_level",
         "vip_start_time", "vip_end_time", "vip_last_modify_time", "vip_max_free", "vip_min_free", "vip_next_level"
         , "vip_operator", "dt", "dn").as[DwsMember]
+
+    result.persist(StorageLevel.MEMORY_ONLY_SER)
     val resultData = result.groupByKey(item => item.uid + "_" + item.dn)
       .mapGroups { case (key, iters) =>
         val keys = key.split("_")
@@ -82,7 +90,10 @@ object DwsMemberService {
           vip_next_level, vip_operator, dt, dn)
       }
     resultData.show()
-    //    result.foreach(println)
+
+//      .rdd
+//      result.persist(StorageLevel.MEMORY_ONLY_SER)
+//      result.foreach(println)
     while (true) {
       println("1")
     }

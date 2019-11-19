@@ -8,8 +8,11 @@ object AdsQzService {
 
   def getTarget(sparkSession: SparkSession, dt: String) = {
     val avgDetail = AdsQzDao.getAvgSPendTimeAndScore(sparkSession, dt)
+      .coalesce(1).write.mode(SaveMode.Append).insertInto("ads.ads_paper_avgtimeandscore")
     val topscore = AdsQzDao.getTopScore(sparkSession, dt)
+      .coalesce(1).write.mode(SaveMode.Append).insertInto("ads.ads_paper_maxdetail")
     val top3UserDetail = AdsQzDao.getTop3UserDetail(sparkSession, dt)
+      .coalesce(3).write.mode(SaveMode.Append).insertInto("ads.ads_top3_userdetail")
     val low3UserDetail = AdsQzDao.getLow3UserDetail(sparkSession, dt)
     val paperScore = AdsQzDao.getPaperScoreSegmentUser(sparkSession, dt)
     val paperPassDetail = AdsQzDao.getPaperPassDetail(sparkSession, dt)
