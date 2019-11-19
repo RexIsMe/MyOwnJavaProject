@@ -5,9 +5,6 @@ import com.atguigu.teacher.util.HiveUtil
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
-/**
-  * 没有任何优化的join操作
-  */
 object DwsSellCourseController {
   def main(args: Array[String]): Unit = {
     val sparkConf = new SparkConf().setAppName("dws_sellcourse_import")

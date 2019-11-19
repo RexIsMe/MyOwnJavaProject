@@ -147,11 +147,3 @@ object UserRegistETL {
   }
 
 }
-
-
-case class BaseAdLog(adid:Int, adname:String, dn:String)
-case class BaseWebsiteLog(siteid:Int, sitename:String, siteurl:String, delete:Int, createtime:Timestamp, creator:String)
-case class PcenterMemPayMoney(uid:Int, paymoney:String, siteid:String, vioid:Int)
-case class VipLevel(vip_id:Int, vip_level:String, start_time:Timestamp, end_time:Timestamp, last_modify_time:Timestamp, max_free:String, min_free:String, next_level:String, operator:String)
-case class aseadlog(adid:Int, adname:String, dn:String)
-case class baseadlog(adid:Int, adname:String, dn:String)

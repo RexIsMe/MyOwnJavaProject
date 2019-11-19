@@ -5,13 +5,6 @@ import com.atguigu.teacher.util.HiveUtil
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
-/**
-  * 对join优化
-  * 1、小表join大表时，广播小表
-  * 2、大表join大表时，利用分桶做到SMB join(即sortMerge Bucket join)
-  * com.atguigu.teacher.sellcourse.service.DwdSellCourseService#importCoursePay2(org.apache.spark.SparkContext, org.apache.spark.sql.SparkSession)
-  * 需要对数据先做分桶处理，分桶列==join列==sort列
-  */
 object DwsSellCourseController4 {
   def main(args: Array[String]): Unit = {
     val sparkConf = new SparkConf().setAppName("dws_sellcourse_import")
