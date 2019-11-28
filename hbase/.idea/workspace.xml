@@ -2,32 +2,939 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b12226f9-b985-4b2d-9964-4b683d70c7c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../HIVE/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/HIVE.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/ETLUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/VideoETLMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etl/VideoETLRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etlpractice/MyDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HIVE/src/main/java/com/atguigu/hive/etlpractice/MyMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MyInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MySink.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/src/main/java/com/atguigu/flume/MySource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../flume/src/main/resources/Log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/HbaseClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/impl/LockImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/resources/log4j_back2.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/common/SersorSource.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/FunctionsPrac.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/StreamingJob.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/StreamingJob02.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/StreamingJob03.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/StreamingJob04.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/StreamingJob05.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/StreamingJob06.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/StreamingJob07.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/practice/StreamingJob08.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/processfunction/KeyedProcessFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/test/BaseTransformations.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/test/KeyedStream.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/test/MultiStreamTransformations.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/test/SinkTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../FlinkTorturial/src/main/scala/com/atguigu/test/WindowTest.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flink/UserBehaviorAnalysis/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_google_code_gson_gson_2_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_google_guava_guava_11_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_jamesmurty_utils_java_xmlbuilder_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_jersey_jersey_client_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_codec_commons_codec_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__commons_net_commons_net_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__io_netty_netty_3_6_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__io_netty_netty_all_4_0_23_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_servlet_jsp_jsp_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__junit_junit_4_13_rc_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_avro_avro_1_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_commons_commons_math3_3_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_curator_curator_client_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_curator_curator_framework_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_7_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_0_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__xerces_xercesImpl_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__xml_apis_xml_apis_1_3_04.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/HDFS-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain_back.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__asm_asm_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_github_stephenc_findbugs_findbugs_annotations_1_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_google_guava_guava_12_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_0_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_jcraft_jsch_0_1_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_jolbox_bonecp_0_8_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_lmax_disruptor_3_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_sun_jersey_jersey_core_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_sun_jersey_jersey_json_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_2_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_twitter_chill_java_0_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_twitter_parquet_hadoop_bundle_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_univocity_univocity_parsers_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_yammer_metrics_metrics_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_daemon_commons_daemon_1_0_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_el_commons_el_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__io_netty_netty_3_8_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_jdo_jdo_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__javolution_javolution_5_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__joda_time_joda_time_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__log4j_apache_log4j_extras_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__net_hydromatic_eigenbase_properties_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__net_razorvine_pyrolite_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_antlr_ST4_4_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_calcite_calcite_avatica_1_2_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_calcite_calcite_core_1_2_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_calcite_calcite_linq4j_1_2_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_commons_commons_crypto_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_commons_commons_math3_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_commons_commons_math_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_curator_curator_client_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_curator_curator_framework_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_derby_derby_10_10_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_directory_api_api_asn1_api_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_directory_api_api_util_1_0_0_M20.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_directory_server_apacheds_i18n_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_directory_server_apacheds_kerberos_codec_2_0_0_M15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_web_proxy_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_annotations_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_client_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_common_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_common_tests_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop2_compat_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_hadoop_compat_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_prefix_tree_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_procedure_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_protocol_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_hbase_hbase_server_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_htrace_htrace_core_3_1_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_3_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_hive_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_streaming_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_yarn_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_thrift_libfb303_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_codehaus_jackson_jackson_jaxrs_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_codehaus_jackson_jackson_xc_1_8_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_codehaus_jettison_jettison_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_datanucleus_datanucleus_api_jdo_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_datanucleus_datanucleus_core_3_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_datanucleus_datanucleus_rdbms_3_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_iq80_snappy_snappy_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_jamon_jamon_runtime_2_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_jodd_jodd_core_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_jruby_jcodings_jcodings_1_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_jruby_joni_joni_2_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_mortbay_jetty_jetty_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_mortbay_jetty_jetty_sslengine_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_mortbay_jetty_jsp_2_1_6_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_mortbay_jetty_jsp_api_2_1_6_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_mortbay_jetty_servlet_api_2_5_6_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_scala_lang_scalap_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_spark_project_hive_hive_exec_1_2_1_spark2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_spark_project_hive_hive_metastore_1_2_1_spark2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__tomcat_jasper_compiler_5_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__tomcat_jasper_runtime_5_5_23.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark-190513/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__com_101tec_zkclient_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__com_alibaba_druid_1_1_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_0_10_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_10_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_10_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_lionsoul_ip2region_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/resources/comerce.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/resources/course_learn.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/resources/page.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/resources/qz.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/resources/register.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/interview/BinarySreach.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/interview/MergeSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/interview/QuickSort.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/bean/Models.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/producer/CourseLearnProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/producer/PageLogProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/producer/QzLogProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/producer/RegisterProducer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/streaming/CourseLearnStreaming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/streaming/PageStreaming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/streaming/QzPointStreaming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/streaming/RegisterStreaming.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/streaming/RegisterStreaming2.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/util/ConfigurationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/util/DataSourceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/util/ParseJsonData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/util/SqlProxy.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/online/qzpoint/util/numberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/.idea/modules/spark-2-0-0_363-build.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/.idea/modules/spark-2-0-0_363.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/assembly/spark-assembly_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/common/network-common/spark-network-common_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/common/network-shuffle/spark-network-shuffle_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/common/sketch/spark-sketch_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/common/tags/spark-tags_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/common/unsafe/spark-unsafe_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/core/spark-core_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/examples/spark-examples_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/external/flume-assembly/spark-streaming-flume-assembly_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/external/flume-sink/spark-streaming-flume-sink_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/external/flume/spark-streaming-flume_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/external/java8-tests/java8-tests_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/external/kafka-0-10-assembly/spark-streaming-kafka-0-10-assembly_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/external/kafka-0-10/spark-streaming-kafka-0-10_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/external/kafka-0-8-assembly/spark-streaming-kafka-0-8-assembly_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/external/kafka-0-8/spark-streaming-kafka-0-8_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/graphx/spark-graphx_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/launcher/spark-launcher_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/mllib-local/spark-mllib-local_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/mllib/spark-mllib_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/repl/spark-repl_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/spark-parent_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/sql/catalyst/spark-catalyst_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/sql/core/spark-sql_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/sql/hive/spark-hive_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/streaming/spark-streaming_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spark_source/spark-2.0.0/tools/spark-tools_2.11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__io_netty_netty_3_10_5_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__jline_jline_0_9_94.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__junit_junit_4_13_rc_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_apache_curator_curator_client_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_apache_curator_curator_framework_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zookeeper/zk-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/com_atguigu_warehouse/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/com_atguigu_warehouse/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/com_atguigu_warehouse/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_alibaba_fastjson_1_2_47.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_clearspring_analytics_stream_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_esotericsoftware_kryo_shaded_3_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_esotericsoftware_minlog_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_paranamer_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_scala_2_11_2_6_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_google_guava_guava_14_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_google_inject_guice_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_0_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_jolbox_bonecp_0_8_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_ning_compress_lzf_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_thoughtworks_paranamer_paranamer_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_twitter_chill_2_11_0_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_twitter_chill_java_0_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_twitter_parquet_hadoop_bundle_1_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__com_univocity_univocity_parsers_2_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_beanutils_commons_beanutils_1_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_beanutils_commons_beanutils_core_1_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_collections_commons_collections_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_configuration_commons_configuration_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_digester_commons_digester_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_httpclient_commons_httpclient_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_net_commons_net_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__commons_pool_commons_pool_1_5_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__io_dropwizard_metrics_metrics_core_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__io_dropwizard_metrics_metrics_graphite_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__io_dropwizard_metrics_metrics_json_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__io_dropwizard_metrics_metrics_jvm_3_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__io_netty_netty_3_8_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__javax_jdo_jdo_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__javax_transaction_jta_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__javolution_javolution_5_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__joda_time_joda_time_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__log4j_apache_log4j_extras_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__net_hydromatic_eigenbase_properties_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__net_java_dev_jets3t_jets3t_0_7_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__net_jpountz_lz4_lz4_1_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__net_razorvine_pyrolite_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__net_sf_opencsv_opencsv_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__net_sf_py4j_py4j_0_10_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_antlr_ST4_4_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_antlr_antlr4_runtime_4_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_antlr_antlr_runtime_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_antlr_stringtemplate_3_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_avro_avro_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_avro_avro_ipc_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_avro_avro_ipc_tests_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_avro_avro_mapred_hadoop2_1_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_calcite_calcite_avatica_1_2_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_calcite_calcite_core_1_2_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_calcite_calcite_linq4j_1_2_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_commons_commons_compress_1_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_commons_commons_crypto_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_commons_commons_math3_3_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_commons_commons_math_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_curator_curator_client_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_curator_curator_framework_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_curator_curator_recipes_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_derby_derby_10_10_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_annotations_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_auth_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_client_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_hdfs_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_app_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_core_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_jobclient_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_mapreduce_client_shuffle_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_api_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_client_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_hadoop_hadoop_yarn_server_common_2_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_ivy_ivy_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_parquet_parquet_column_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_parquet_parquet_common_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_parquet_parquet_encoding_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_parquet_parquet_format_2_3_0_incubating.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_parquet_parquet_hadoop_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_parquet_parquet_jackson_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_catalyst_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_core_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_hive_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_launcher_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_network_common_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_network_shuffle_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_sketch_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_sql_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_tags_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_spark_spark_unsafe_2_11_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_thrift_libfb303_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_thrift_libthrift_0_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_xbean_xbean_asm5_shaded_4_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_codehaus_janino_commons_compiler_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_codehaus_janino_janino_3_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_datanucleus_datanucleus_api_jdo_3_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_datanucleus_datanucleus_core_3_2_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_datanucleus_datanucleus_rdbms_3_2_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_fusesource_leveldbjni_leveldbjni_all_1_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_4_0_b34.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_jersey_bundles_repackaged_jersey_guava_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_22_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_iq80_snappy_snappy_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_javassist_javassist_3_18_1_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_jodd_jodd_core_3_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_json4s_json4s_ast_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_json4s_json4s_core_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_json4s_json4s_jackson_2_11_3_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_mortbay_jetty_jetty_util_6_1_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_objenesis_objenesis_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_roaringbitmap_RoaringBitmap_0_5_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_scala_lang_scala_compiler_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_scala_lang_scala_library_2_11_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_scala_lang_scala_reflect_2_11_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_scala_lang_scalap_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_spark_project_hive_hive_exec_1_2_1_spark2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_spark_project_hive_hive_metastore_1_2_1_spark2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_spark_project_spark_unused_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_tukaani_xz_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__oro_oro_2_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/libraries/Maven__xmlenc_xmlenc_0_52.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/com_atguigu_warehouse/com_atguigu_warehouse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online/education-online.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../项目实战/education-online2/com_atguigu_sparkstreaming/com_atguigu_sparkstreaming.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIVE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HIVE/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall0513-parent" beforeDir="false" afterPath="$PROJECT_DIR$/../gmall0513-parent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../kafka/src/main/java/com/atguigu/interceptor/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/../kafka/src/main/java/com/atguigu/interceptor/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/src/main/java/com/atguigu/hdfs/HdfsIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/src/main/java/com/atguigu/hdfs/HdfsIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/target/classes/META-INF/HDFSClient.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hadoop/HDFSClient/target/classes/com/atguigu/hdfs/HdfsIO.class" beforeDir="false" afterPath="$PROJECT_DIR$/../hadoop/HDFSClient/target/classes/com/atguigu/hdfs/HdfsIO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestAnonymityMethod.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/src/main/scala/com/atguigu/chapter5/TestAnonymityMethod.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../scala/target/classes/com/atguigu/chapter5/TestAnonymityMethod$.class" beforeDir="false" afterPath="$PROJECT_DIR$/../scala/target/classes/com/atguigu/chapter5/TestAnonymityMethod$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/.idea/spark-190513.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../项目实战/com_atguigu_warehouse/com_atguigu_warehouse.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/spark-190513.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/src/main/scala/com/atguigu/bigdata/spark/sql/SparkSQL01_Basic.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/src/main/scala/com/atguigu/bigdata/spark/sql/SparkSQL01_Basic.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/src/main/scala/com/atguigu/bigdata/spark/streaming/SparkStreaming05_State.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/src/main/scala/com/atguigu/bigdata/spark/streaming/SparkStreaming05_State.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/META-INF/spark-190513.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/CategoryCountInfo$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/CategoryCountInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyAccumulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyCategoryCountAccumulator$$anonfun$add$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyCategoryCountAccumulator$$anonfun$add$2$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyCategoryCountAccumulator$$anonfun$add$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyCategoryCountAccumulator$$anonfun$add$3$$anonfun$apply$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyCategoryCountAccumulator$$anonfun$add$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyCategoryCountAccumulator$$anonfun$merge$1$$anonfun$apply$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyCategoryCountAccumulator$$anonfun$merge$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyCategoryCountAccumulator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/MyPartitioner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Searcher$$anonfun$getMatchedRDD1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Searcher$$anonfun$getMatchedRDD2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Searcher$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Searcher.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark01_WordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark01_WordCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark01_WordCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark01_WordCount$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark01_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark01_WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark02_RDD1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark02_RDD1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark03_RDD2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark03_RDD2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark04_RDD_Transform1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark04_RDD_Transform1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark04_RDD_Transform1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark05_RDD_Transform2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark05_RDD_Transform2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark06_RDD_Transform3$$anonfun$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark06_RDD_Transform3$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark06_RDD_Transform3$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark06_RDD_Transform3$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark06_RDD_Transform3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark06_RDD_Transform3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark07_RDD_Transform4$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark07_RDD_Transform4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark07_RDD_Transform4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark08_RDD_Transform5$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark08_RDD_Transform5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark08_RDD_Transform5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark09_RDD_Transform6$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark09_RDD_Transform6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark09_RDD_Transform6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark10_RDD_Transform7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark10_RDD_Transform7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark11_RDD_Transform8$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark11_RDD_Transform8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark12_RDD_Transform9$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark12_RDD_Transform9$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark12_RDD_Transform9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark13_RDD_Transform10$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark13_RDD_Transform10$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark13_RDD_Transform10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark14_RDD_Transform11$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark14_RDD_Transform11$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark14_RDD_Transform11$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark14_RDD_Transform11$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark14_RDD_Transform11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark15_RDD_Transform12$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark15_RDD_Transform12$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark15_RDD_Transform12$$anonfun$main$2$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark15_RDD_Transform12$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark15_RDD_Transform12$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark15_RDD_Transform12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark16_RDD_Transform13$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark16_RDD_Transform13$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark16_RDD_Transform13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark17_RDD_Transform14$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark17_RDD_Transform14$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark17_RDD_Transform14.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark18_RDD_Transform15$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark18_RDD_Transform15$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark18_RDD_Transform15$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark18_RDD_Transform15$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark18_RDD_Transform15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark19_RDD_Transform16$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark19_RDD_Transform16$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark19_RDD_Transform16$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark19_RDD_Transform16$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark19_RDD_Transform16.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark20_RDD_Transform17$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark20_RDD_Transform17$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark20_RDD_Transform17$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark20_RDD_Transform17.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark21_RDD_Transform18$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark21_RDD_Transform18$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark21_RDD_Transform18.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark22_RDD_DEMO$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark22_RDD_DEMO$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark22_RDD_DEMO$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark22_RDD_DEMO$$anonfun$4$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark22_RDD_DEMO$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark22_RDD_DEMO$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark22_RDD_DEMO$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark22_RDD_DEMO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark23_RDD_Action1$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark23_RDD_Action1$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark23_RDD_Action1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark23_RDD_Action1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark24_RDD_Action2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark24_RDD_Action2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark25_RDD_Action3$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark25_RDD_Action3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark26_RDD_Action4$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark26_RDD_Action4$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark26_RDD_Action4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark27_RDD_Action5$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark27_RDD_Action5$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark27_RDD_Action5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark28_RDD_Function$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark28_RDD_Function$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark28_RDD_Function.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark29_RDD_Cache$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark29_RDD_Cache$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark29_RDD_Cache$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark29_RDD_Cache$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark29_RDD_Cache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark30_RDD_Checkpoint$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark30_RDD_Checkpoint$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark30_RDD_Checkpoint$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark30_RDD_Checkpoint$$anonfun$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark30_RDD_Checkpoint$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark30_RDD_Checkpoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark31_RDD_JSON$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark31_RDD_JSON$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark31_RDD_JSON$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark31_RDD_JSON.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark32_RDD_Mysql$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark32_RDD_Mysql$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark32_RDD_Mysql$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark32_RDD_Mysql.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark33_RDD_Mysql1$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark33_RDD_Mysql1$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark33_RDD_Mysql1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark33_RDD_Mysql1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark34_RDD_Task$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark34_RDD_Task$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark34_RDD_Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark35_RDD_Hbase$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark35_RDD_Hbase$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark35_RDD_Hbase$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark35_RDD_Hbase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark36_RDD_Hbase1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark36_RDD_Hbase1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark36_RDD_Hbase1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark37_RDD_Sum$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark37_RDD_Sum$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark37_RDD_Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark38_RDD_Accmu$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark38_RDD_Accmu$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark38_RDD_Accmu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark39_RDD_Accumu1$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark39_RDD_Accumu1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark39_RDD_Accumu1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark40_RDD_Var$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark40_RDD_Var$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark40_RDD_Var.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$2$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$4$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark41_RDD_Req1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$3$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$3$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$3$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark42_RDD_Req1_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$10$$anonfun$apply$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$4$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$4$$anonfun$apply$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$4$$anonfun$apply$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark43_RDD_Req2_Top10CategoryTop10Session.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$7$$anonfun$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$7$$anonfun$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$7$$anonfun$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$7$$anonfun$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$main$1$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/Spark44_RDD_Req3_PageFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/UserVisitAction$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/core/UserVisitAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/AgeAvgClassUDAF$$typecreator2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/AgeAvgClassUDAF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/AgeAvgUDAF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/AvgBuffer$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/AvgBuffer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/CalcCitydata$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/CalcCitydata$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/CalcCitydata$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/CalcCitydata$$anonfun$evaluate$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/CalcCitydata$$anonfun$merge$1$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/CalcCitydata$$anonfun$merge$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/CalcCitydata$$anonfun$update$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/CalcCitydata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/Emp$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/Emp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL01_Basic$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL01_Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL02_UDAF$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL02_UDAF.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL02_UDAF_Class$$typecreator1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL02_UDAF_Class$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL02_UDAF_Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL03_JDBC$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL03_JDBC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL04_Hive$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/SparkSQL04_Hive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/User$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/sql/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/MySocketReceiver$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/MySocketReceiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming01_WordCount$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming01_WordCount$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming01_WordCount$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming01_WordCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming01_WordCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming02_Source$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming02_Source$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming02_Source$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming02_Source$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming02_Source.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming03_Receiver$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming03_Receiver$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming03_Receiver$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming03_Receiver$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming03_Receiver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming04_Kafka$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming04_Kafka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming05_State$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming05_State$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming05_State$$anonfun$4$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming05_State$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming05_State$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming05_State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming06_Transform$$anonfun$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming06_Transform$$anonfun$main$2$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming06_Transform$$anonfun$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming06_Transform$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming06_Transform.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming07_Window$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming07_Window$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming07_Window$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming07_Window$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/streaming/SparkStreaming07_Window.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/test/TestClassLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/test/TestClone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/test/TestRandom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/classes/com/atguigu/bigdata/spark/test/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark-190513/target/spark-190513-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/target/spark-190513-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__com_101tec_zkclient_0_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_37.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_27.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_0_8_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_kafka_kafka_2_11_0_8_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_8_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_kafka_kafka_clients_0_8_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_8_2_11_2_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_apache_spark_spark_streaming_kafka_0_8_2_11_2_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_scala_lang_modules_scala_parser_combinators_2_11_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark-190513/.idea/libraries/Maven__org_scala_lang_modules_scala_xml_2_11_1_0_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/spark.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/spark.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/bean/Models.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/bean/Models.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/controller/AdsMemberController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/controller/AdsMemberController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/controller/DwdMemberController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/controller/DwdMemberController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/controller/DwsMemberController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/controller/DwsMemberController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/dao/DwdMemberDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/dao/DwdMemberDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/dao/DwsMemberDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/dao/DwsMemberDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/service/AdsMemberService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/service/AdsMemberService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/service/DwsMemberService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/service/DwsMemberService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/member/service/EtlDataService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/member/service/EtlDataService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/bean/Models.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/bean/Models.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/controller/AdsController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/controller/AdsController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/controller/DwdController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/controller/DwdController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/controller/DwsController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/controller/DwsController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/dao/AdsQzDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/dao/AdsQzDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/dao/QzChapterDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/dao/QzChapterDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/dao/QzCourseDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/dao/QzCourseDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/dao/QzMajorDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/dao/QzMajorDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/dao/QzPaperDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/dao/QzPaperDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/dao/QzQuestionDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/dao/QzQuestionDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/dao/UserPaperDetailDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/dao/UserPaperDetailDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/service/AdsQzService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/service/AdsQzService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/service/DwsQzService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/service/DwsQzService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/qz/service/EtlDataService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/qz/service/EtlDataService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/bean/Models.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/bean/Models.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/controller/DwdSellCourseController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwdSellCourseController2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/controller/DwdSellCourseController2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/controller/DwsSellCourseController.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController2.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/controller/DwsSellCourseController2.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController3.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/controller/DwsSellCourseController3.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/controller/DwsSellCourseController4.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/controller/DwsSellCourseController4.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/dao/DwdSellCourseDao.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/dao/DwdSellCourseDao.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/service/DwdSellCourseService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/service/DwdSellCourseService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/sellcourse/service/DwsSellCourseService.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/sellcourse/service/DwsSellCourseService.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/util/HiveUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/util/HiveUtil.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/util/ParseJsonData.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spark/src/main/scala/com/atguigu/teacher/offline/util/ParseJsonData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teacher/gmall0513-parent" beforeDir="false" afterPath="$PROJECT_DIR$/../teacher/gmall0513-parent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../zookeeper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zookeeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/impl/LockImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/distributionlock/impl/LockImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/practice/ZkServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/src/main/java/com/atguigu/zk/practice/ZkServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/target/classes/META-INF/zookeeper.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zookeeper/target/classes/com/atguigu/zk/practice/ZkServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../zookeeper/target/classes/com/atguigu/zk/practice/ZkServer.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,48 +950,45 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/HbaseClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="177" column="78" selection-start-line="177" selection-start-column="78" selection-end-line="177" selection-end-column="78" />
+            <state relative-caret-position="237">
+              <caret line="221" column="24" lean-forward="true" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1-sources.jar!/org/apache/hadoop/hbase/client/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain_back.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="72" column="16" lean-forward="true" selection-end-line="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/Message.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1501">
-              <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hbase/hbase-common/1.3.1/hbase-common-1.3.1-sources.jar!/org/apache/hadoop/hbase/util/Bytes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -164,6 +1068,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/HbaseClient.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain_back.java" />
       </list>
     </option>
   </component>
@@ -183,16 +1089,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="y" value="2" />
+    <option name="x" value="111" />
+    <option name="y" value="1" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -202,6 +1101,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +1133,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hbase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hbase" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="hbase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -241,6 +1160,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atguigu" type="462c0819:PsiDirectoryNode" />
               <item name="hbase" type="462c0819:PsiDirectoryNode" />
               <item name="weibo" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -248,20 +1169,21 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/atguigu/hbase" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workSpace\myOwn\hbase\src\main\java\com\atguigu\hbase\weibo" />
       <recent name="D:\workSpace\myOwn\hbase\src\main\java\com\atguigu\hbase" />
       <recent name="D:\workSpace\myOwn\hbase\src\main\resources" />
     </key>
@@ -294,17 +1216,18 @@
       <workItem from="1566089095166" duration="612000" />
       <workItem from="1566172054048" duration="1481000" />
       <workItem from="1566517324178" duration="17000" />
+      <workItem from="1574919733749" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14914000" />
+    <option name="totallyTimeSpent" value="15507000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="90" y="2" width="1400" height="784" extended-state="0" />
+    <frame x="89" y="1" width="1400" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846625" visible="true" weight="0.26825634" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49846625" visible="true" weight="0.28315946" />
       <window_info id="Image Layers" order="1" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -324,6 +1247,7 @@
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="right" id="Jms Messenger" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,16 +1293,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="86" column="32" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hbase/hbase-common/1.3.1/hbase-common-1.3.1-sources.jar!/org/apache/hadoop/hbase/util/Bytes.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -428,13 +1342,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/apache/hbase/hbase-client/1.3.1/hbase-client-1.3.1-sources.jar!/org/apache/hadoop/hbase/client/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/HbaseClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="177" column="78" selection-start-line="177" selection-start-column="78" selection-end-line="177" selection-end-column="78" />
+        <state relative-caret-position="237">
+          <caret line="221" column="24" lean-forward="true" selection-start-line="221" selection-start-column="24" selection-end-line="221" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/Message.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/atguigu/hbase/weibo/WeiboMain_back.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="72" column="16" lean-forward="true" selection-end-line="99" />
         </state>
       </provider>
     </entry>
